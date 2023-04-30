@@ -9,10 +9,10 @@
             <img :class="`close ${isOpen ? 'open' : ''}`" @click="isOpen = false" src="../assets/shared/icon-close.svg"
                 alt="">
             <ul :class="`d-flex align-items-center p-4 w-50 gap-5 ${isOpen ? 'open' : ''}`">
-                <li><router-link exact to="/"><span class="text-light fw-bold">00</span> Home</router-link></li>
-                <li><router-link to="/destination"><span class="text-light fw-bold">01</span> Destination</router-link></li>
-                <li><router-link to="/crew"><span class="text-light fw-bold">02</span> Crew</router-link></li>
-                <li><router-link to="/technology"><span class="text-light fw-bold">03</span> Technology</router-link></li>
+                <li><router-link exact to="/Space-tourism-multi-page-website/"><span class="text-light fw-bold">00</span> Home</router-link></li>
+                <li><router-link to="/Space-tourism-multi-page-website/destination"><span class="text-light fw-bold">01</span> Destination</router-link></li>
+                <li><router-link to="/Space-tourism-multi-page-website/crew"><span class="text-light fw-bold">02</span> Crew</router-link></li>
+                <li><router-link to="/Space-tourism-multi-page-website/technology"><span class="text-light fw-bold">03</span> Technology</router-link></li>
             </ul>
         </div>
     </div>

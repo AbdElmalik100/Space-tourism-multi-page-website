@@ -2,22 +2,22 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 const routes = [
     {
-        path: '/',
+        path: '/Space-tourism-multi-page-website/',
         name: "home",
         component: () => import('../views/HomeView.vue')
     },
     {
-        path: '/destination',
+        path: '/Space-tourism-multi-page-website/destination',
         name: "destination",
         component: () => import('../views/DestinationView.vue')
     },
     {
-        path: '/crew',
+        path: '/Space-tourism-multi-page-website/crew',
         name: "crew",
         component: () => import('../views/CrewView.vue')
     },
     {
-        path: '/technology',
+        path: '/Space-tourism-multi-page-website/technology',
         name: "technology",
         component: () => import('../views/TechnologyView.vue')
     },
